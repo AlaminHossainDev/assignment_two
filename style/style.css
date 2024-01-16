@@ -76,6 +76,8 @@ img {
   background-size: cover;
   height: 500px;
   border-radius: 16px;
+  box-shadow: rgb(105 255 240 / 40%) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .text-content {
   position: relative;
@@ -350,6 +352,7 @@ span.image-title {
   border-radius: 16px;
   padding: 30px;
   height: 350px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .form-row h3 {
   color: #131318;
@@ -494,6 +497,7 @@ button.form-newsletter-btn {
   height: 422px;
   border-radius: 16px;
   margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 .discount-cl-2 {
   right: 35% !important;
