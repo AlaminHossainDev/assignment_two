@@ -53,5 +53,70 @@
   .image-popular {
     flex-shrink: 1;
   }
-  /* popular section start */
+  /* Newsletter section start */
+  .discount-ctn {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .form-row {
+    width: 100%;
+  }
+
+  /* discount row */
+  .discount-row {
+    width: 100%;
+  }
+  .discount-row {
+    width: 100%;
+  }
+  .first-ig-row,
+  .sec-ig-row,
+  .third-ig-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .third-ig-row {
+    flex-direction: column;
+  }
+  .image1,
+  .image2,
+  .image3,
+  .image4,
+  .image5,
+  .image6,
+  .image7 {
+    width: 100%;
+  }
+  /* Choose Your Destination */
+  .card-row-one,
+  .card-two {
+    flex-direction: column;
+  }
+  .hotel-card,
+  .service-card,
+  .price-card {
+    width: 80%;
+  }
+
+  /* date cal */
+  .coloum-disount {
+    width: 338px;
+    height: 272px;
+  }
+  .discount-cl-2 {
+    right: 15% !important;
+    margin-top: 2%;
+  }
+  button.btn-1 {
+    position: absolute;
+    left: 26%;
+  }
+
+  /* title responsive */
+  .text-content-dns h2 {
+    font-size: 20px;
+  }
+  .text-popular h2 {
+    font-size: 20px;
+  }
 }

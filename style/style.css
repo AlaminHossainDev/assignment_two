@@ -19,7 +19,7 @@ img {
 }
 
 .highligt_text {
-  color: #ff5400;
+  color: #ff5400 !important;
 }
 .top-margin {
   margin-top: 80px;
@@ -55,6 +55,7 @@ img {
   padding: 10px 0px;
   align-items: center;
   margin-left: 10px;
+  color: #131318;
 }
 .munu-humberger {
   display: none;
@@ -181,6 +182,7 @@ ul li {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+  padding: 20px;
 }
 
 .first-ig-row {
@@ -189,6 +191,13 @@ ul li {
   justify-content: center;
   align-items: center;
 }
+.sec-ig-row {
+  display: flex;
+}
+.third-ig-row {
+  display: flex;
+}
+
 span.image-title {
   color: #fff;
   font-family: Mulish;
@@ -204,8 +213,111 @@ span.image-title {
   display: flex;
   position: relative;
   width: 50%;
-  background-image: linear-gradient(rgba(6, 6, 6, 0.098), rgba(0, 0, 0, 0.057)),
+  background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
     url(/images/Maldives.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  border-radius: 16px;
+  margin: 5px;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.image2 {
+  display: flex;
+  position: relative;
+  width: 50%;
+  background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
+    url(/images/Indonesia.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  border-radius: 16px;
+  margin: 5px;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.image3 {
+  display: flex;
+  position: relative;
+  width: 30%;
+  background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
+    url(/images/Srilanka.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  border-radius: 16px;
+  margin: 5px;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.image4 {
+  display: flex;
+  position: relative;
+  width: 45%;
+  background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
+    url(/images/North-America.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  border-radius: 16px;
+  margin: 5px;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.image5 {
+  display: flex;
+  position: relative;
+  width: 25%;
+  background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
+    url(/images/Kashmir.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  border-radius: 16px;
+  margin: 5px;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.image6 {
+  display: flex;
+  position: relative;
+  width: 40%;
+  background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
+    url(/images/Bangladesh.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  border-radius: 16px;
+  margin: 5px;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.image7 {
+  display: flex;
+  position: relative;
+  width: 60%;
+  background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
+    url(/images/bnd.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,6 +336,7 @@ span.image-title {
   gap: 10px;
   justify-content: center;
   align-items: center;
+  padding-bottom: 80px;
 }
 .form-row {
   width: 40%;
@@ -296,4 +409,166 @@ button.form-newsletter-btn {
   top: -76px;
   width: 50%;
   text-align: center;
+}
+
+/* Why Choose Us css */
+.card-row-one {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.hotel-card img {
+  width: 60px;
+}
+.service-card img {
+  width: 60px;
+}
+.hotel-card {
+  width: 50%;
+  height: 284px;
+  padding: 10px 30px;
+  border-radius: 16px;
+  background-color: #fffbf7;
+}
+
+.service-card {
+  width: 50%;
+  height: 284px;
+  padding: 10px 30px;
+  border-radius: 16px;
+  background-color: #f4fdff;
+}
+.card-two {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-around;
+}
+.price-card img {
+  width: 60px;
+}
+.price-card {
+  width: 50%;
+  height: 284px;
+  padding: 10px 30px;
+  border-radius: 16px;
+  background-color: #fef6f6;
+}
+
+.card-title {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 10px 0;
+}
+.card-description {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+/* Deals & Discounts */
+.discount-section {
+  background-image: url(/Images/iii.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 422px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.discount-cl-2 {
+  right: 35% !important;
+  margin-top: 2%;
+}
+.coloum-disount {
+  background-color: #ffffffe0;
+  width: 579px;
+  height: 268px;
+  padding: 30px;
+  position: absolute;
+  right: 15%;
+  margin-top: 2%;
+  border-radius: 16px;
+}
+.date-time {
+  display: flex;
+  gap: 20px;
+}
+.yallow {
+  color: #ff5400;
+  margin-right: 3px;
+}
+
+.price-tag {
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  padding: 15px 0;
+}
+.primary-btn {
+  width: 150px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+}
+.btn-1 {
+  width: 250px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+  position: relative;
+  left: 40%;
+  margin-bottom: 80px;
+}
+
+/* footer css */
+footer {
+  background-color: #f3f3f3;
+  padding: 30px 0;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.icon-box {
+  text-align: center;
+  font-size: 24px;
+  padding: 17px;
+  border-bottom: 1px solid rgba(145, 145, 145, 0.381);
+}
+.copy-right {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 30px 0;
 }
