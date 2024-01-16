@@ -17,6 +17,12 @@ body {
 img {
   width: 100%;
 }
+.btn-hover:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
 
 .highligt_text {
   color: #ff5400 !important;
