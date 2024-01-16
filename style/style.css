@@ -435,6 +435,8 @@ button.form-newsletter-btn {
   padding: 10px 30px;
   border-radius: 16px;
   background-color: #fffbf7;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .service-card {
@@ -443,6 +445,8 @@ button.form-newsletter-btn {
   padding: 10px 30px;
   border-radius: 16px;
   background-color: #f4fdff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .card-two {
   margin-top: 15px;
@@ -461,6 +465,8 @@ button.form-newsletter-btn {
   padding: 10px 30px;
   border-radius: 16px;
   background-color: #fef6f6;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .card-title {
