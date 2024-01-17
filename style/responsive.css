@@ -69,6 +69,10 @@
     width: 83%;
   }
 
+  /* discount text */
+  .discount-text {
+    left: -18px;
+  }
   /* discount row */
   .discount-row {
     width: 100%;
