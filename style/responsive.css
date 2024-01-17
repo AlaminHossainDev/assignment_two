@@ -17,6 +17,7 @@
     display: none;
   }
   /* Nav bar end*/
+
   /* hero banner start */
   .text-content {
     top: 10%;
@@ -32,7 +33,7 @@
     margin: 0 10px;
   }
   .form-section input[type="text"] {
-    width: 85%;
+    width: 78%;
   }
   .form-section input,
   select {
@@ -49,6 +50,12 @@
   .popular-ctn {
     display: flex;
     flex-wrap: wrap;
+  }
+  .image-popular {
+    margin-top: 20px;
+    width: 540px;
+    height: auto;
+    flex-shrink: 0;
   }
   .image-popular {
     flex-shrink: 1;
