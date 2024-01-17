@@ -111,8 +111,9 @@
 
   /* date cal */
   .coloum-disount {
-    width: 338px;
-    height: 272px;
+    width: 250px;
+    height: 330px;
+    left: 60px;
   }
   .discount-cl-2 {
     right: 15% !important;
