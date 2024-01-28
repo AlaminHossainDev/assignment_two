@@ -70,7 +70,7 @@ img {
 /* hero banner csss */
 .hero_banner {
   background-image: linear-gradient(rgba(6, 6, 6, 0.836), rgba(0, 0, 0, 0.164)),
-    url(/images/herobanner.png);
+    url(./images/herobanner.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,7 +239,7 @@ span.image-title {
   position: relative;
   width: 50%;
   background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
-    url(/images/Indonesia.png);
+    url(./images/Indonesia.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -257,7 +257,7 @@ span.image-title {
   position: relative;
   width: 30%;
   background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
-    url(/images/Srilanka.png);
+    url(./images/Srilanka.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -274,7 +274,7 @@ span.image-title {
   position: relative;
   width: 45%;
   background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
-    url(/images/North-America.png);
+    url(./images/North-America.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -291,7 +291,7 @@ span.image-title {
   position: relative;
   width: 25%;
   background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
-    url(/images/Kashmir.png);
+    url(./images/Kashmir.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -308,7 +308,7 @@ span.image-title {
   position: relative;
   width: 40%;
   background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
-    url(/images/Bangladesh.png);
+    url(./images/Bangladesh.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -325,7 +325,7 @@ span.image-title {
   position: relative;
   width: 60%;
   background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
-    url(/images/bnd.png);
+    url(./images/bnd.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -370,7 +370,7 @@ span.image-title {
 .discount-row {
   width: 60%;
   background-image: linear-gradient(rgba(6, 6, 6, 0.098), rgba(0, 0, 0, 0.057)),
-    url(/images/pahar.png);
+    url(./images/pahar.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -490,7 +490,7 @@ button.form-newsletter-btn {
 
 /* Deals & Discounts */
 .discount-section {
-  background-image: url(/Images/iii.png);
+  background-image: url(./Images/iii.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
