@@ -222,7 +222,7 @@ span.image-title {
   position: relative;
   width: 50%;
   background-image: linear-gradient(rgba(6, 6, 6, 0.231), rgba(0, 0, 0, 0.162)),
-    url(/images/Maldives.png);
+    url(./images/Maldives.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
